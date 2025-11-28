@@ -13,7 +13,7 @@ result1<-D(cal,'x')
 cat("differentiation\n")
 print(result1)
 
-inte<-function(x){2*x+x^2+5*x^3}
+inte<-function(x){x^3 + 5*x^2 + x}
 result2<-integrate(inte,lower=0,upper=10)
 cat("integration\n")
 print(result2)
